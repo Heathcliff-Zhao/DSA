@@ -52,6 +52,13 @@ public:
     size_t getCapacity() const {
         return capacity;
     }
+
+    void print() const {
+        for (size_t i = 0; i < size; ++i) {
+            std::cout << data[i] << " ";
+        }
+        std::cout << std::endl;
+    }
 };
 
 int main() {
@@ -61,17 +68,13 @@ int main() {
     vec.push_back(3);
 
     std::cout << "Vector contents: ";
-    for (size_t i = 0; i < vec.getSize(); ++i) {
-        std::cout << vec[i] << " ";
-    }
+    vec.print();
     std::cout << std::endl;
 
     vec.pop_back();
 
     std::cout << "After pop_back, vector contents: ";
-    for (size_t i = 0; i < vec.getSize(); ++i) {
-        std::cout << vec[i] << " ";
-    }
+    vec.print();
     std::cout << std::endl;
 
     return 0;
