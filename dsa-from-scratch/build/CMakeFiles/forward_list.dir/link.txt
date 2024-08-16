@@ -1,3 +1,0 @@
-D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\forward_list.dir/objects.a
-D:\mingw64\bin\ar.exe qc CMakeFiles\forward_list.dir/objects.a @CMakeFiles\forward_list.dir\objects1.rsp
-D:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\forward_list.dir/objects.a -Wl,--no-whole-archive -o forward_list.exe -Wl,--out-implib,libforward_list.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\forward_list.dir\linkLibs.rsp

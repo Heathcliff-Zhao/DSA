@@ -44,5 +44,6 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "E:/Study/Coding/mini-STL/dsa-from-scratch"
 }
